@@ -33,7 +33,7 @@
 							<tool command="clang" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.so.debug.1558178286" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.so.debug">
 								<option defaultValue="true" id="macosx.cpp.link.macosx.so.debug.option.shared.1397464964" name="Shared (-dynamiclib)" superClass="macosx.cpp.link.macosx.so.debug.option.shared" valueType="boolean"/>
 								<option id="macosx.cpp.link.option.other.1620009229" name="Other options (-Xlinker [option])" superClass="macosx.cpp.link.option.other"/>
-								<option id="macosx.cpp.link.option.flags.1956035572" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-arch i386" valueType="string"/>
+								<option id="macosx.cpp.link.option.flags.1956035572" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-arch i386 -fvisibility=hidden" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1756042926" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -50,7 +50,7 @@
 								<option id="gnu.cpp.compiler.option.warnings.nowarn.654203537" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" value="false" valueType="boolean"/>
 								<option id="gnu.cpp.compiler.option.warnings.allwarn.1037628758" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" value="true" valueType="boolean"/>
 								<option id="gnu.cpp.compiler.option.other.pic.984007617" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" value="false" valueType="boolean"/>
-								<option id="gnu.cpp.compiler.option.other.other.459061231" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0  " valueType="string"/>
+								<option id="gnu.cpp.compiler.option.other.other.459061231" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fvisibility=hidden" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.dialect.flags.877573983" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" value="-arch i386" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.448894203" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -58,7 +58,8 @@
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.macosx.so.debug.option.optimization.level.444016310" name="Optimization Level" superClass="gnu.c.compiler.macosx.so.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.macosx.so.debug.option.debugging.level.786647437" name="Debug Level" superClass="gnu.c.compiler.macosx.so.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.dialect.std.170080976" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.c11" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.dialect.flags.289105534" superClass="gnu.c.compiler.option.dialect.flags" value="-arch i386" valueType="string"/>
+								<option id="gnu.c.compiler.option.dialect.flags.289105534" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" value="-arch i386" valueType="string"/>
+								<option id="gnu.c.compiler.option.misc.other.414762885" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fvisibility=hidden" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.452909843" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>
