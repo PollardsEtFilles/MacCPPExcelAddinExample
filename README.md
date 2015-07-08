@@ -15,3 +15,12 @@ cmd-B will build all of the projects
 The dylib local to the Excel spreadsheet directory has to be manually copied when the dylib changes
 
 The absoluate paths in the spreadsheet need to be changed to refere to your path in the VBA module
+
+
+### References
+* https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/DynamicLibraryDesignGuidelines.html
+* http://www.realsoftwareblog.com/2011/12/how-to-create-dylib-on-mac-os-x-and.html
+* http://macstuff.beachdogs.org/blog/?p=46
+* https://social.msdn.microsoft.com/Forums/en-US/b060f291-0754-4e85-a7b9-e64259e6baad/vba-using-shared-library-office-2011-mac?forum=isvvba
+* https://msdn.microsoft.com/en-us/library/cc668205.aspx
+* 
