@@ -3,7 +3,7 @@
  *      Author: peter lappo
  */
 
-#include "plugin.hpp"
+#include "addin.hpp"
 
 #define EXPORT __attribute__((visibility("default")))
 

@@ -5,8 +5,8 @@
  *      Author: johnhousty
  */
 
-#ifndef PLUGIN_HPP_
-#define PLUGIN_HPP_
+#ifndef ADDIN_HPP_
+#define ADDIN_HPP_
 
 //namespace pefjh {
 
@@ -18,4 +18,4 @@ extern "C" {
 //}
 
 
-#endif /* PLUGIN_HPP_ */
+#endif /* ADDIN_HPP_ */

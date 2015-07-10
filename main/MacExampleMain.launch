@@ -18,6 +18,6 @@
 <listEntry value="4"/>
 </listAttribute>
 <mapAttribute key="org.eclipse.debug.core.environmentVariables">
-<mapEntry key="DYLD_LIBRARY_PATH" value="../plugin/Debug"/>
+<mapEntry key="DYLD_LIBRARY_PATH" value="../addin/Debug"/>
 </mapAttribute>
 </launchConfiguration>
