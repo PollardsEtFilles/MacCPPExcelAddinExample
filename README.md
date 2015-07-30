@@ -1,6 +1,6 @@
-# MacCPPExcelPluginExample
+# Mac CPP Excel Addin Example
 
-Mac OSX Excel plugin consisting of three components, the plugin, a main program and an excel spreadsheet using the plugin.
+Mac OSX Excel addin consisting of three components, the addin, a main program and an excel spreadsheet using the addin.
 
 There are three CDT projects in this repo
 * MacExampleAddin cpp - uses CDT and clang to build the dylib
