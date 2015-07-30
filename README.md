@@ -9,8 +9,16 @@ There are three CDT projects in this repo
 ** The excel absoulute paths need to changed for this to work in your environment
 
 ## Install
-Clone the repo into an Eclipse CDT workspace and import the projects into Eclipse
-cmd-B will build all of the projects
+Clone the repo into an Eclipse CDT workspace and import the projects into Eclipse.
+That is:
+* git clone git@github.com:PollardsEtFilles/MacCPPExcelAddinExample.git
+* In Eclipse:
+  * menu File->Import
+  * choose "Existing Projects into Workspace" and click next
+  * choose "Select root directory:" and browse to the cloned git project base directory and select open
+  * the projects: panel should show the new projects to be imported, press Finish to import
+
+After the import cmd-B will build all of the projects.
 
 The dylib local to the Excel spreadsheet directory has to be manually copied when the dylib changes
 
