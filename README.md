@@ -2,11 +2,16 @@
 
 Mac OSX Excel addin consisting of three components, the addin, a main program and an excel spreadsheet using the addin.
 
-There are three CDT projects in this repo
-* MacExampleAddin cpp - uses CDT and clang to build the dylib
-* MacExampleMain cpp - uses CDT and clang to build the main and references dylib
-* MacExampleExcel excel - an example spreadsheet that uses the addin, via VBA not directly
-** The excel absoulute paths need to changed for this to work in your environment
+There are several CDT projects in this repo
+* ExampleAddin c++ - uses CDT and clang to build the dylib
+* ExampleAddinMain c++ - uses CDT and clang to build the main and references dylib
+* ExampleAddinExcel excel - an example spreadsheet that uses the addin, via VBA not directly. *The excel absoulute paths need to changed for this to work in your environment*
+* ExampleAddinBanditTest c++ - unit tests using Bandit to test the addin. *Requires bandit to be installed ie ${HOME}/lib*
+* ExampleAddinCatchTest c++ - unit tests using Catch to test the addin
+* ExampleAddinGoogleTest c++ - unit tests using GoogleTest to test the addin. *Requires GoogleTest to be installed ie ${HOME}/lib*
+
+## Unit Test Notes
+There doesn't appear to be a way to get unit tests to work inside the same project as the shared library for a CDT project which is why they are separated.
 
 ## Install
 Clone the repo into an Eclipse CDT workspace and import the projects into Eclipse.
