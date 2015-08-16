@@ -10,14 +10,6 @@ using namespace bandit;
 #include <addin.h>
 
 
-//TEST_CASE( "addnum" ) {
-//
-//    REQUIRE( addNum(1,2) == 3 );
-//    REQUIRE( addNum(1.1,2.2) >= 3.3 );
-//    REQUIRE( addNum(1.1,2.2) == Approx( 3.3 ).epsilon( 0.00001 ) );
-//
-//}
-
 go_bandit([](){
 
   describe("our first test", [](){

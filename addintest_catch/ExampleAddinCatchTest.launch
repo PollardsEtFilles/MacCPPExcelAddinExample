@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.cdt.launch.applicationLaunchType">
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.DEBUG_NAME" value="gdb"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value=".gdbinit"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.commandFactory" value="org.eclipse.cdt.debug.mi.core.standardMacOSCommandFactory"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.verboseMode" value="false"/>
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="org.eclipse.cdt.debug.mi.core.CDebuggerNew"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/ExampleAddinCatchTest"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="ExampleAddinCatchTest"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ExampleAddinCatchTest"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="DYLD_LIBRARY_PATH" value="../addin/Debug"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.FULLPATH_AFTER" value="true"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_BELOWMAIN" value="false"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_DEMANGLE" value="true"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_DSYMUTIL" value="true"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_ERRLIMIT" value="true"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_FREERES" value="true"/>
+<intAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_MAINSTACK" value="0"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_MAINSTACK_BOOL" value="false"/>
+<intAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_MAXFRAME" value="2000000"/>
+<intAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_NUMCALLERS" value="12"/>
+<listAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_SUPPFILES"/>
+<booleanAttribute key="org.eclipse.linuxtools.valgrind.launch.GENERAL_TRACECHILD" value="false"/>
+<stringAttribute key="org.eclipse.linuxtools.valgrind.launch.TOOL" value="org.eclipse.linuxtools.valgrind.launch.cachegrind"/>
+</launchConfiguration>

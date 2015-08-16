@@ -22,10 +22,10 @@
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.1108682288" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool command="clang++" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.881712822" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.libs.1694439348" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="MacExampleAddin"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ExampleAddin"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.780616671" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MacExampleAddin/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ExampleAddin/Debug}&quot;"/>
 								</option>
 								<option id="macosx.cpp.link.option.flags.112434839" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-arch i386" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.44499636" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
@@ -43,10 +43,10 @@
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.1517858950" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.dialect.std.1834036765" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1991554753" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MacExampleAddin/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ExampleAddin/src}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.dialect.flags.1970113454" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" value="" valueType="string"/>
-								<option id="gnu.cpp.compiler.option.other.other.921953055" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -arch i386" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.other.other.921953055" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -arch i386" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1859447375" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool command="clang" id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.170305843" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug">
@@ -55,7 +55,7 @@
 								<option id="gnu.c.compiler.option.include.paths.1991976676" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths"/>
 								<option id="gnu.c.compiler.option.dialect.std.1510103065" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.c11" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.dialect.flags.1708431578" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" value="" valueType="string"/>
-								<option id="gnu.c.compiler.option.misc.other.129820935" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -arch i386" valueType="string"/>
+								<option id="gnu.c.compiler.option.misc.other.129820935" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -arch i386" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1411514714" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>

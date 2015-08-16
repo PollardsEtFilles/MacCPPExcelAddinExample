@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.cdt.testsrunner.launch.CTestsRunner">
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_ARGUMENTS" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/ExampleAddinCatchTest"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="ExampleAddinCatchTest"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="cdt.managedbuild.config.gnu.macosx.exe.debug.99326708"/>
+<stringAttribute key="org.eclipse.cdt.testsrunner.launch.TESTS_RUNNER" value="org.eclipse.cdt.testsrunner.gtest"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ExampleAddinCatchTest"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="DYLD_LIBRARY_PATH" value="../addin/Debug"/>
+</mapAttribute>
+<stringAttribute key="process_factory_id" value="org.eclipse.cdt.testsrunner.TestingProcessFactory"/>
+</launchConfiguration>

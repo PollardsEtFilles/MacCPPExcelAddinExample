@@ -23,11 +23,11 @@
 							<tool command="clang++" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1880437791" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.paths.1245035307" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${HOME}/lib/googletest-1.7.0&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MacExampleAddin/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ExampleAddin/Debug}&quot;"/>
 								</option>
 								<option id="macosx.cpp.link.option.libs.810918006" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gtest32"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="MacExampleAddin"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ExampleAddin"/>
 								</option>
 								<option id="macosx.cpp.link.option.flags.1332942824" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-arch i386" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1688300749" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
@@ -43,8 +43,8 @@
 								<option id="gnu.cpp.compilermacosx.exe.debug.option.optimization.level.73317735" name="Optimization Level" superClass="gnu.cpp.compilermacosx.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.184523929" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.190226207" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MacExampleAddin/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${HOME}/lib/googletest-1.7.0/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ExampleAddin/src}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.other.1979638537" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -arch i386" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.dialect.std.146625510" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
@@ -134,4 +134,5 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
 </cproject>
