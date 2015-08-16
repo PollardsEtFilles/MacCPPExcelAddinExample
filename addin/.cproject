@@ -5,9 +5,9 @@
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.so.debug.1580130175" moduleId="org.eclipse.cdt.core.settings" name="Debug">
 				<externalSettings>
 					<externalSetting>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Pef_test2"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Pef_test2/Debug"/>
-						<entry flags="RESOLVED" kind="libraryFile" name="Pef_test2" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/MacExampleAddin"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/MacExampleAddin/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="MacExampleAddin" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<extensions>
@@ -34,6 +34,8 @@
 								<option defaultValue="true" id="macosx.cpp.link.macosx.so.debug.option.shared.1397464964" name="Shared (-dynamiclib)" superClass="macosx.cpp.link.macosx.so.debug.option.shared" valueType="boolean"/>
 								<option id="macosx.cpp.link.option.other.1620009229" name="Other options (-Xlinker [option])" superClass="macosx.cpp.link.option.other"/>
 								<option id="macosx.cpp.link.option.flags.1956035572" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-arch i386 -fvisibility=hidden" valueType="string"/>
+								<option id="macosx.cpp.link.option.paths.1822082609" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths"/>
+								<option id="macosx.cpp.link.option.libs.2075791393" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1756042926" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -52,6 +54,7 @@
 								<option id="gnu.cpp.compiler.option.other.pic.984007617" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" value="false" valueType="boolean"/>
 								<option id="gnu.cpp.compiler.option.other.other.459061231" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fvisibility=hidden -arch i386" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.dialect.flags.877573983" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" value="" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1362611055" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.448894203" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool command="clang" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.c.compiler.macosx.so.debug.373950897" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.so.debug">
@@ -76,9 +79,9 @@
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.so.release.207603566" moduleId="org.eclipse.cdt.core.settings" name="Release">
 				<externalSettings>
 					<externalSetting>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Pef_test2"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Pef_test2/Release"/>
-						<entry flags="RESOLVED" kind="libraryFile" name="Pef_test2" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/MacExampleAddin"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/MacExampleAddin/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="MacExampleAddin" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<extensions>

@@ -5,17 +5,12 @@
  *      Author: johnhousty
  */
 
-#ifndef ADDIN_HPP_
-#define ADDIN_HPP_
-
-//namespace pefjh {
+#ifndef ADDIN_H_
+#define ADDIN_H_
 
 extern "C" {
 	double addNum(double x, double y);
 	double addNum2(double x, double y);
 }
 
-//}
-
-
-#endif /* ADDIN_HPP_ */
+#endif /* ADDIN_H_ */
